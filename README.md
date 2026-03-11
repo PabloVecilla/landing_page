@@ -3,7 +3,7 @@
 Una landing page interactiva, responsiva y semántica desarrollada como el primer proyecto del Máster. Este proyecto demuestra comprensión de la estructura web fundamental.
 
 ## 🔗 Enlaces del Proyecto
-* **Demo en vivo:** [Añade tu link de GitHub Pages aquí]
+* **Demo en vivo:** https://pablovecilla.github.io/landing_page/
 
 ---
 

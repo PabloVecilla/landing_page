@@ -1,3 +1,142 @@
+:root {
+    /* ===== Base Greys (cool / blue-tinted) ===== */
+    --grey-50:  #f6f8fb;
+    --grey-100: #eef2f7;
+    --grey-200: #d9e1ea;
+    --grey-300: #b8c2cf;
+    --grey-400: #8e99a8;
+    --grey-500: #667181;
+    --grey-600: #4c5563;
+    --grey-700: #343b46;
+    --grey-800: #222831;
+    --grey-900: #161a20;
+
+    /* ===== Soft Blue Accents ===== */ 
+    --blue-soft: #6f8fb8;
+    --blue-muted: #8ea6c6;
+    --blue-light: #c9d6ea;  
+
+    /* ===== Semantic UI Colors ===== */
+    --color-bg: var(--grey-50);
+    --color-surface: #ffffff;
+    --color-border: var(--grey-200);
+    --color-text: var(--grey-800);
+    --color-text-muted: var(--grey-500);
+
+    --color-accent: var(--blue-soft);
+    --color-accent-hover: #5d7fa9;
+
+
+    /* ===== border radius ===== */
+    --border-radius: 12px;
+
+    /* ===== shadow ===== */
+    --shadow: var(--color-text-muted);
+
+  
+}
+
 body {
-    background: aquamarine;
+    background-color: var(--color-bg);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+
+
+}
+
+nav {
+    background-color: var(--color-border);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+li {
+    display: inline; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    background-color: var(--color-border);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+
+}
+
+section > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+td {
+    text-align: center;
+}
+
+td:nth-of-type(2), th:nth-of-type(2) {
+    background-color: #8ea6c6;
+}
+
+/* GALERÍA Y FOTOS */
+media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    align-content: space-around;
+}
+
+media > article {
+    width: 300px;
+    height: 360px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+ article.chauchat {
+    width: 400px;
+    height: 320px;
+ }
+
+ /* ===== FORMULARIO ===== */
+ form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+ form > #apellido {
+    
+ }
+
+/* ===== footer ===== */
+footer {
+    background-color: #343b46;
+    color: #d9e1ea;
 }

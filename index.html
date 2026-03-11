@@ -8,13 +8,96 @@
     
 </head>
 <body>
-    <h1>Otra p*ta landing</h1>
-    <h2>Lista de la compra</h2>
-    <ul>
-        <li>Pan</li>
-        <li>huevos</li>
-        <li>leche</li>
-    </ul>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#cosas">Cosas</a></li>
+                <li><a href="index.html#masCosas">Más cosas</a></li>
+                <li><a href="index.html#form">Formulario</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <h1>Landing</h1>
+    <section>
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos ipsa id doloribus iste! Recusandae id doloremque consectetur! Minus repellendus magnam, ipsam sit odio rerum fugiat debitis expedita eaque quaerat hic, laborum corporis quibusdam corrupti ipsa commodi fugit vel provident. At tempore quibusdam deserunt placeat dignissimos maiores modi est? Dolore velit dolorum eos distinctio, nostrum quidem iste sit accusantium repellendus cumque cupiditate, consequatur, beatae maiores minima laudantium doloribus quod odit deserunt! Quis nesciunt a consequatur vitae dolore laborum quod odit provident dicta sed earum ullam unde sunt quisquam odio nihil cupiditate neque iste in praesentium, dolorem omnis? Nobis, hic autem.</p>
+    </section>
+
+    <section id="cosas">
+        <h2>Cosas</h2>
+        <media>
+            <article>
+                <img src="./img/img1.jpg" alt="kayaker">
+            </article>
+            <article>
+                <img src="./img/img1.jpg" alt="kayaker">
+            </article>
+            <article>
+                <img src="./img/img1.jpg" alt="kayaker">
+            </article>
+            <article>
+                <img src="./img/img1.jpg" alt="kayaker">
+            </article>
+            <article>
+                <img src="./img/img1.jpg" alt="kayaker">
+            </article>
+            <article>
+                <img src="./img/img1.jpg" alt="kayaker">
+            </article>
+        </media>
+    </section>
+
+    <section id="masCosas">
+        <h2>Más Cosas</h2>
+        <p>Aquí hay más cosas, solo que en una tabla</p>
+        <table>
+            <tr>
+                <th>Cosas buenas</th>
+                <th>Cosas que ni fu ni fa</th>
+                <th>Cosas du merda</th>
+            </tr>
+            <tr>
+                <td>Comer</td>
+                <td>Comer acelgas</td>
+                <td>No comer</td>
+            </tr>
+            <tr>
+                <td>Dormir</td>
+                <td>Dormir mal</td>
+                <td>Comer techo</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="form">
+        <h2>Formulario</h2>
+        <form action="success.html">
+            <label for="nombre">Nombre</label><input type="text" id="nombre" required>
+            <label for="apellidos">Apellidos</label><input type="text" id="apellidos" required>
+            <label for="mail">E-mail</label><input type="email" id="mail" required>
+            <p><label for="terms">Acepta los términos y condiciones</label>
+            <input type="checkbox" value="terms" name="terms" id="terms" required></p>
+            <p><label for="publi">Quieres recibir publicidad?</label>
+            <input type="checkbox" value="publi" name="publi" id="publi"></p>
+            <p>¿Eres parte del club?</p>
+            <p><label for="member">Soy del club!</label>
+                <input type="radio" id="member" value="member" name="isMember"></p>
+            <p><label for="noMember">Aún no!</label><input type="radio" id="noMember" value="noMember" name="isMember"></p>
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <!-- ===== SCRIPT ===== -->  
     <script src="./script.js"></script>
 </body>
+<footer>
+    <ul>
+        <li>footer1</li>
+        <li>footer2</li>
+        <li>footer3</li>
+    </ul>
+</footer>
 </html>
